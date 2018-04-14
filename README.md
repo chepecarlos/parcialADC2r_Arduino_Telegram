@@ -3,6 +3,6 @@ Este proyecto usando un potenciómetro en Arduino manda un valor (0-10); por un 
 
 # Integrantes :
 
-Oscar Antonio Grande Muñoz  CIF:2015011313
-Lev Andrei Merino Torres    CIF:
-Julian Ernesto Monge Gaytan CIF:
+Oscar Antonio Grande Muñoz  CIF:2015011313 \n
+Lev Andrei Merino Torres    CIF:\n
+Julian Ernesto Monge Gaytan CIF:\n
