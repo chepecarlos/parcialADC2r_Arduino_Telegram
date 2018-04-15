@@ -129,7 +129,7 @@ void imprimir()
  Serial.print("MIN: ");
  Serial.println(Menor());
 
- Serial.print("El numero es = ");
+ Serial.print("El numero actual es = ");
  Serial.println(numero);
 }
 

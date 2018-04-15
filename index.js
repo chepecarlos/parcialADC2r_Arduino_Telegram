@@ -30,8 +30,8 @@ miSerial.setEncoding('utf8');
 
 miSerial.on('data', function(data) {
   console.log('Data:', data);
-  if (data[0] == 'H') {
-    console.log("Boton precionado");
-    bot.sendMessage(idChar, "Precionador el boton");
+  if (data[0] == 'Mostrar') {
+    console.log("Movimiento del potenciometro");
+    bot.sendMessage(chatId, "Resultado:", data);
   }
 });
