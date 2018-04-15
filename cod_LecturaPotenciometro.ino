@@ -8,7 +8,7 @@ void setup() {
  Serial.begin(9600);
 
 //Escribimos un mensaje de inicio
- Serial.println("Inicio - valores del potenciometro");
+ Serial.println("Iniciando Arduino.....");
 
 }
 
