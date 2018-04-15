@@ -8,7 +8,7 @@ void setup() {
  Serial.begin(9600);
 
 //Escribimos un mensaje de inicio
- Serial.println("Inicio - valores del potenciometro"); 
+ Serial.println("Inicio - valores del potenciometro");
 
 }
 
@@ -18,7 +18,7 @@ void loop() {
 // leeremos el pin A0 valor o el pin analogico que este conectado la salida del potenciometro
 valor = analogRead(A0);
 
-//Para probar imprimimos el valor por pantalla 
+//Para probar imprimimos el valor por pantalla
 Serial.print("El valor es = ");
 Serial.println(valor);
 Serial.println("");
@@ -83,19 +83,12 @@ if(valor >= 838.1 && valor <= 931.1)
   Serial.print("El numero es = ");
   Serial.println(numero);
 }
-if(valor >= 932 && valor <= 1023)
+if(valor >= 931.2 && valor <= 1023)
 {
   numero == 10;
   Serial.print("El numero es = ");
   Serial.println(numero);
 }
-
-
-
-
-
-
-
 
 
 
