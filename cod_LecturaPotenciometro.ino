@@ -19,9 +19,9 @@ void loop() {
 valor = analogRead(A0);
 
 //Para probar imprimimos el valor por pantalla
-Serial.print("El valor es = ");
-Serial.println(valor);
-Serial.println("");
+//Serial.print("El valor es = ");
+//Serial.println(valor);
+//Serial.println("");
 
 if(valor >= 0 && valor <= 93.09)
 {
@@ -89,6 +89,9 @@ if(valor >= 931.2 && valor <= 1023)
   Serial.print("El numero es = ");
   Serial.println(numero);
 }
+
+// ahora vamos a capturar numeros: mayor, menor y actual
+
 
 
 
