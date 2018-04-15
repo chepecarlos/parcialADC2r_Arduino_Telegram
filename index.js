@@ -35,8 +35,5 @@ miSerial.setEncoding('utf8');
 miSerial.on('data', function(data) {
   console.log(data);
   bot.sendMessage(Idchat,data);
-  if (data[0] == 'H') {
-    console.log("Boton precionado");
 
-  }
 });
