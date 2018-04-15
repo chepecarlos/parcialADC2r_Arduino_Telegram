@@ -18,5 +18,6 @@
   "homepage": "https://github.com/oskrgrande/parcialADC2r_Arduino_Telegram#readme",
   "dependencies": {
     "node-telegram-bot-api": "^0.30.0"
+    
   }
 }
