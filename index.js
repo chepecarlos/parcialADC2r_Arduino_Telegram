@@ -22,16 +22,18 @@ bot.on('message', (msg) => {
     console.log("calculando...");
     bot.sendMessage(chatId, 'Mostrando datos...');
     miSerial.write("Mostrar");
+    bot.sendMessage(chatId, miSerial.imprimir());
   }
 });
 
-
+/*
 miSerial.setEncoding('utf8');
 
-miSerial.on('data', function(data) {
+miSerial.on('data', function(imprimir) {
   console.log('Data:', data);
-  if (data[0] == 'Mostrar') {
-    console.log("Movimiento del potenciometro");
-    bot.sendMessage(chatId, "Resultado:", data);
-  }
+  if (data[0] != '') {
+    console.log("Enviando datos");
+    bot.sendMessage(chatId,"Datos: "  );
+  }*/
+
 });
