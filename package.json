@@ -1,0 +1,22 @@
+{
+  "name": "parcialadc2r_arduino_telegram",
+  "version": "1.0.0",
+  "description": "El proyecto \"Arduino Telegram\" es el parcial práctico de la clase ARQUITECTURA DE COMPUTADORAS de la UNIVERSIDAD EVANGÉLICA DE EL SALVADOR en el que se solicita que usando un potenciómetro en Arduino manda un valor (0-10); por un mensaje en telegram dira el valor actual, maximo y minimo que han llegado del arduino a un usuario.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oskrgrande/parcialADC2r_Arduino_Telegram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oskrgrande/parcialADC2r_Arduino_Telegram/issues"
+  },
+  "homepage": "https://github.com/oskrgrande/parcialADC2r_Arduino_Telegram#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
