@@ -109,6 +109,25 @@ if(valor >= 931.2 && valor <= 1023)
 
 
 // ahora vamos a capturar numeros: mayor, menor y actual
+Mayor();
+Menor();
+imprimir();
+
+}
+
+
+//Funcion Imprimir
+void imprimir()
+{
+  Serial.print("MAX: ");
+ Serial.println(Mayor());
+
+ Serial.print("MIN: ");
+ Serial.println(Menor());
+
+ Serial.print("El numero es = ");
+ Serial.println(numero);
+}
 
 //Funcion para capturar numero mayor
 int Mayor(){
@@ -138,8 +157,4 @@ int Menor(){
   }
 
   return numMenor;
-}
-
-
-
 }
