@@ -105,8 +105,40 @@ if(valor >= 931.2 && valor <= 1023)
     Lista[10]=numero;
 }
  delay(1000);
+
+
+
 // ahora vamos a capturar numeros: mayor, menor y actual
 
+//Funcion para capturar numero mayor
+int Mayor(){
+  int numMayor = 0;
+
+  //crea un bucle para recorrer ese array
+  for (int i=0; i<sizeof(Lista); i++) {
+    //compara cada numero del array con el maxVal
+    if (numMayor < Lista[i]) {
+      numMayor= Lista[i];
+    }
+  }
+
+  return numMayor;
+}
+
+//Funcion para capturar el numero menor
+int Menor(){
+  int numMenor = 10;
+
+  //crea un bucle para recorrer ese array
+  for (int i=0; i<sizeof(Lista); i++) {
+    //compara cada numero del array con el minVal y si es menor actualiza la variable
+    if (Lista[i] < numMenor) {
+      numMenor = Lista[i];
+    }
+  }
+
+  return numMenor;
+}
 
 
 
