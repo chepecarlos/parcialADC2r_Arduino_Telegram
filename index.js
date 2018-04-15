@@ -35,5 +35,4 @@ miSerial.setEncoding('utf8');
 miSerial.on('data', function(data) {
   console.log(data);
   bot.sendMessage(Idchat,data);
-
 });
