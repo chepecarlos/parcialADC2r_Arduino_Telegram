@@ -4,5 +4,7 @@ El proyecto "Arduino Telegram" es el parcial práctico de la clase ARQUITECTURA 
 # Integrantes :
 
 Oscar Antonio Grande Muñoz  CIF:2015011313
-Lev Andrei Merino Torres    CIF:
+
+Lev Andrei Merino Torres    CIF:2015010657
+
 Julian Ernesto Monge Gaytan CIF:2014010952
