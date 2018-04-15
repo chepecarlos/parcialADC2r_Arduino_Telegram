@@ -1,6 +1,6 @@
 
 long valor; //esta variable almacena el valor del potenciometro
-int numero; // esta avriable la cuparemos para definir el numero segun el rango en el que nos encontremos
+int numero; // esta avriable la ocuparemos para definir el numero segun el rango en el que nos encontremos
 
 void setup() {
   // put your setup code here, to run once:
