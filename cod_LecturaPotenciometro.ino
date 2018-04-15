@@ -27,6 +27,7 @@ valor = analogRead(A0);
 //Serial.println(valor);
 //Serial.println("");
 
+
 if(valor >= 0 && valor <= 93.09)
 {
   numero == 0;
@@ -109,10 +110,13 @@ if(valor >= 931.2 && valor <= 1023)
 
 
 // ahora vamos a capturar numeros: mayor, menor y actual
+char orden = Serial.read();
+   if (orden == 'Mostrar') {
+
 Mayor();
 Menor();
 imprimir();
-
+}
 }
 
 
